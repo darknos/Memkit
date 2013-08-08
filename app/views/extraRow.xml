@@ -1,0 +1,6 @@
+<Alloy>
+	<View class="container" id='root' onSingletap='openNews'>
+		<Label id='time'></Label>
+		<Label id='name'></Label>
+	</View>
+</Alloy>

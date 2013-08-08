@@ -1,0 +1,40 @@
+"#root" : {
+	height : 30,
+	backgroundColor : '#fff'
+},
+
+'#time[platform=ios]' : {
+	touchEnabled : false,
+	left : 14,
+	width : 30,
+	color : '#cc0000',
+	font : {
+		fontSize : '11dp',
+		fontFamily : 'Open Sans',
+		fontWeight : 'bold'
+	}
+},
+'#time[platform=android]' : {
+	touchEnabled : false,
+	left : 14,
+	width : 30,
+	color : '#cc0000',
+	font : {
+		fontSize : '11dp',
+		fontFamily : 'Open Sans Bold',
+		fontWeight : 'bold'
+	}
+},
+
+'#name' : {
+	touchEnabled : false,
+	left : 55,
+	right : 14,
+	color : '#666',
+	font : {
+		fontSize : '13dp',
+		fontFamily : 'OpenSans'
+	},
+	height : 22
+}
+

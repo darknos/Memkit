@@ -1,0 +1,5 @@
+"#root": {
+    backgroundColor :'#ededed',
+    navBarHidden : true,
+    exitOnClose : true
+}

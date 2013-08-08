@@ -1,0 +1,8 @@
+'#table' : {
+	height : Ti.UI.SIZE,
+	width : '62.8%',
+	left : '2.5%',
+	layout : 'vertical',
+	backgroundColor : '#fff',
+	top : 0
+}

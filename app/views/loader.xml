@@ -1,0 +1,6 @@
+<Alloy>
+	<View id='root' onSingletap='reload'>
+		<ActivityIndicator id='ai'></ActivityIndicator>
+		<Label id='message'></Label>
+	</View>
+</Alloy>

@@ -1,0 +1,15 @@
+".commonFont" : {
+    color : '#555',
+    font : {
+        fontSize : '13dp',
+        fontWeight : 'normal',
+        fontFamily : 'Open Sans'
+    }
+},
+".lblFont" : {
+    color : '#666',
+    font : {
+        fontSize : '15dp',
+        fontFamily : 'Open Sans'
+    }
+}

@@ -1,0 +1,63 @@
+"#root[formFactor=handheld]" : {
+	top : 0,
+	height : 88
+},
+"#root[formFactor=tablet]" : {
+	top : 0,
+	height : 88
+},
+
+"#timer[formFactor=tablet]" : {
+    left : 19,
+    top : 27,
+    width : 33,
+    height : 33,
+    backgroundImage: '/images/timer.png'    
+},
+"#timer[formFactor=handheld]" : {
+    left : 16,
+    width : 33,
+    height : 33,
+    backgroundImage: '/images/timer.png'    
+},
+
+"#logo[formFactor=tablet]" : {
+    left : 58,
+    width : 217,
+    height : 33,
+    backgroundImage : '/images/logo.png',
+    top : 27
+},
+"#logo[formFactor=handheld]" : {
+    left : 53,
+    width : 184,
+    height : 30,
+    backgroundImage : '/images/logo.png'
+},
+
+"#btnMenu[formFactor=tablet]" : {
+    right : 0,
+    width : 55,
+    height : 88,
+    backgroundImage : '/images/menu_tablet.png'
+},
+"#btnMenu[formFactor=handheld]" : {
+    right : 0,
+    width : 88,
+    height : 88,
+    backgroundImage : '/images/menu_hh.png'
+},
+
+'Label[formFactor=tablet]' : {
+	height : 83,
+	top : 5
+},
+
+'#main' : {
+	right : 175
+},
+
+'#section' : {
+	right : 52
+}
+

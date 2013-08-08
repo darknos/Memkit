@@ -1,0 +1,12 @@
+'#ai': {
+	left : '40%'
+},
+'#message': {
+	color : '#7e7e7e',
+    font : {
+        fontFamily : 'Helvetica Neue',
+        fontSize : "20dp"
+    },
+    width : '90%',
+    textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+} 

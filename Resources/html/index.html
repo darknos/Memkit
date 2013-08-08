@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+    <body>
+<script id="article_template" type="text/html">
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+                <aside>
+                    <div class=header id="section_name">{{section}}</div>
+                    <div id="imageHolder"><img id="article_image" src="{{image}}" /></div>
+                    <div class="clearfix">
+                    <!--div class="share_button"></div-->
+                    <div class="time" id="article_time">{{formatted_ts}}</div>
+                        </div>
+                                        
+
+                </aside><div class="sep"></div>
+                    
+                <article>
+                        <h1 id="article_header">{{head}}</h1>
+                        <article id="article_content">{{{text}}}</article>
+                    
+                </article>
+                
+                <div class="related">
+                    <h3>По теме:</h3>
+                    <table width="100%" cellpadding=0 cellspacing=0>
+                        {{#related}}
+                        <tr>
+                            <th nowrap width=5%><a href="#" onclick="loadArticle('{{id}}')">{{formatted_time}}</a></th>
+                            <td><a href="#" onclick="loadArticle('{{id}}')">{{{head}}}</a></td>
+                        </tr>
+                        {{/related}}
+                    </table>
+                </div>
+
+
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+</script>
+<div id="holder">
+    
+</div>        
+        <script src="js/zeptomin.js"></script>
+        <script src="js/icanhaz.js"></script>
+        <script src="js/moment.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

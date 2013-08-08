@@ -1,0 +1,8 @@
+<Alloy>
+    <View class="container" id="article" onSingletap='openArticle'>
+        <Label id="section"></Label>
+        <ImageView id="photo"></ImageView>
+        <Label id="head"></Label>
+        <Label id="desc"></Label>
+    </View>
+</Alloy>

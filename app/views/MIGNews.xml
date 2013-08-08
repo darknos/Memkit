@@ -1,0 +1,11 @@
+<Alloy>
+    <View class="container" id="root">
+        <Require src="header" />
+        <ScrollView id="list">
+        	<Require src='pullToRefresh' id='ptr'>
+        </ScrollView>
+        <View id="article">
+        	<Require src="article" id="articleContent"/>
+        </View>
+    </View>
+</Alloy>

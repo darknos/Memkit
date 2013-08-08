@@ -1,0 +1,22 @@
+{
+	"target": "simulator",
+	"deployType": "development",
+	"deviceFamily": "iphone",
+	"iosSdkPath": "/Users/admin/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/iphone",
+	"appGuid": "b261b034-dbc5-4df6-bbae-363b9299cb21",
+	"tiCoreHash": "77157e1ffaec640cf559356a147b6a4c",
+	"modulesHash": "d41d8cd98f00b204e9800998ecf8427e",
+	"gitHash": "57634ef",
+	"name": "MIGNews",
+	"id": "ua.com.ipublisher.mignews",
+	"analytics": true,
+	"publisher": "admin",
+	"url": "http://",
+	"version": "1.0",
+	"description": "not specified",
+	"copyright": "2013 by admin",
+	"guid": "b261b034-dbc5-4df6-bbae-363b9299cb21",
+	"skipJSMinification": true,
+	"forceCopy": false,
+	"forceCopyAll": false
+}

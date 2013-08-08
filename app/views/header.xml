@@ -1,0 +1,9 @@
+<Alloy>
+    <View class="container" id="root">
+        <View id="timer"></View>
+        <View id="logo" onSingletap="toMain"></View>
+        <Label id='main' class="lblFont" visible='false' onSingletap='toMain'>Главная</Label>
+        <Label id='section' class="lblFont" visible='false' onSingletap='sectionClicked'>По рубрикам</Label>
+        <Button id="btnMenu" onSingletap="OnToggleMenu"/>
+    </View>
+</Alloy>

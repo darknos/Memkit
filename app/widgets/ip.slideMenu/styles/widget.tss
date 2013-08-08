@@ -1,0 +1,25 @@
+"#leftMenu": {
+	top: 0,
+	right: 0,
+	width: 256,
+	zIndex: "1"
+},
+"#win": {
+	left: 0,
+	right: -5,
+	zIndex: "10"
+},
+"#innerwin": {
+	right : 5,
+	zIndex : "10"
+},
+'#tableView' : {
+    rowHeight: "44dp",
+    backgroundColor: "#690303",
+    allowSelection: false,
+    separatorColor: 'transparent'
+},
+'#shadow' : {
+    backgroundImage: WPATH("images/shadow.png"),
+    opacity: 0.5
+}

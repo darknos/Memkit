@@ -1,0 +1,23 @@
+".container" : { 
+    backgroundColor :'#ededed'
+},
+
+"#list" : {
+    top : 88,
+    layout : 'vertical',
+    scrolltype: 'vertical',
+    contentWidth : '100%',
+    showVerticalScrollIndicator : true,
+    width : '100%',
+    left : 0
+},
+
+"#article" : {
+    top : 88,
+    scrolltype: 'vertical',
+    contentWidth : '100%',
+    showVerticalScrollIndicator : true,
+    width : '100%',
+    left : "-100%"
+}
+

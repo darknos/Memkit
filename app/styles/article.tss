@@ -1,0 +1,41 @@
+".container" : {
+	backgroundColor :'#ededed'
+},
+'#back' : {
+	bottom : 14,
+    left : 0
+},
+'#webview' : {
+	willHandleTouches: false,
+	backgroundColor :'#ededed',
+},
+'#webview[platform=android]': {
+	pluginState : Ti.UI.Android.WEBVIEW_PLUGINS_ON
+},
+'#line[platform=android formFactor="handheld"]' : {
+    left : 0,
+	height : 2,
+	width : 133,
+	backgroundColor : '#990000',
+	bottom : 11
+},
+'#line[platform=android formFactor=tablet]' : {
+    left : 0,
+	height : 2,
+	width : 85,
+	backgroundColor : '#990000',
+	bottom : 11
+},
+'#line[platform=ios]' : {
+    left : 0,
+	height : 2,
+	width : 85,
+	backgroundColor : '#990000',
+	bottom : 11
+},
+"#link": {
+    bottom : 0,
+    left : 11,
+    height : 48,
+    width : Ti.UI.SIZE
+}

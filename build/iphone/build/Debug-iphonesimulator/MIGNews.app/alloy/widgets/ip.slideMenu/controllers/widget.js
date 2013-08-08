@@ -1,0 +1,1 @@
+/Users/admin/Documents/Titanium Studio Workspace/Memkit/Resources/alloy/widgets/ip.slideMenu/controllers/widget.js

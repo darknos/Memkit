@@ -1,0 +1,5 @@
+<Alloy>
+    <View class="container" id="loader" onSingletap='loadMoreData'>
+        <Label id="loadMore" class="bigFont"></Label>
+    </View>
+</Alloy>

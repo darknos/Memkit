@@ -1,0 +1,50 @@
+'#tableHeader' : { 
+	touchEnabled : false,
+	top : -60,
+	height : 60,
+	width : 250,
+	visible : true,
+	backgroundColor : '#ededed'
+},
+'#arrow' : {
+	touchEnabled : false,
+    backgroundImage : "/images/blackArrow.png",
+    width : 22,
+    height : 48,
+    bottom : 4,
+    left : 0
+},
+'#status' : {
+	touchEnabled : false,
+	text : 'Отпустите для обновления',
+	bottom : 30,
+	height : 14,
+	color : "#000",
+	textAlign : "center",
+	font : {
+		fontSize : 14,
+	    fontWeight : "bold"
+	}
+},
+'#lastUpdated' : {
+    touchEnabled : false,
+    bottom : 15,
+    height : 12,
+    color : "#000",
+    textAlign : "center",
+    font : {
+        fontSize : 12
+    },	
+},
+
+"#ai[platform=ios]": {
+    style : Ti.UI.iPhone.ActivityIndicatorStyle.DARK	
+
+},
+
+'#ai' : {
+	left : 23,
+    bottom : 13,
+    width : 30,
+    height : 30,
+}

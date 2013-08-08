@@ -1,0 +1,6 @@
+<Alloy>
+  <TableViewRow id="row">
+      <Label id="title"/>
+      <View id="separator"/>
+  </TableViewRow>
+</Alloy>

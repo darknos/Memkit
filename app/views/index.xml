@@ -1,0 +1,5 @@
+<Alloy>
+    <Window class="container" id="root" navBarHidden="true">
+        <Require type="widget" src="ip.slideMenu" id="menu"/>
+    </Window>
+</Alloy>

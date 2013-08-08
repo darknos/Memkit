@@ -1,0 +1,9 @@
+<Alloy>
+    <View id="leftMenu">
+        <TableView id="tableView"></TableView>
+    </View>
+    <View id="win">
+        <View id="innerwin"></View>
+    	<View id="shadow" right="-5" top="0" bottom="0" width="5"></View>
+    </View>
+</Alloy>

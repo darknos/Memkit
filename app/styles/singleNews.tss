@@ -1,0 +1,130 @@
+".container[formFactor=handheld]" : {
+	backgroundColor: "#fff",
+	height: Ti.UI.SIZE,
+	bottom: 33,
+	layout: 'vertical'
+},
+".container[formFactor=tablet]" : {
+	backgroundColor: "#fff",
+	width: '30.34%',
+	top: 23,
+	left: '2.5%',
+	height: 225	
+},
+
+'#section[formFactor=handheld]' : {
+	left: 11,
+	right: 11,
+	top: 0,
+	height: 40,
+	touchEnabled: false,
+	color: '#555',
+	font : {
+        fontSize : '18dp',
+        fontFamily : 'Open Sans'
+    }
+},
+'#section[formFactor=tablet]' : {
+	left: 6,
+	right: 6,
+	top: 0,
+	height: 28,
+	touchEnabled: false,
+	color: '#555',
+	font : {
+        fontSize : '14dp',
+        fontFamily : 'Open Sans'
+    }
+},
+
+'#photo[formFactor=handheld]' : {
+	left: 5,
+	right: 5,
+	touchEnabled: false
+},
+'#photo[formFactor=tablet]' : {
+	left: 3,
+	right: 3,
+	top: 28,
+	bottom: 64,
+	touchEnabled: false
+},
+
+'#head[formFactor=handheld]' : {
+	left: 11,
+	right: 11,
+	top: 11,
+	height: 35,
+	touchEnabled: false,
+	color : '#555',
+    font : {
+        fontSize : '14dp',
+        fontFamily : 'Open Sans'
+    }
+},
+
+'#head[formFactor=tablet]' : {
+	left: 6,
+	right: 6,
+	top : 165,
+	height: 35,
+	touchEnabled: false,
+	color : '#555',
+    font : {
+        fontSize : '12dp',
+        fontFamily : 'Open Sans'
+    }
+},
+
+'#time[formFactor=handheld platform=ios]' : {
+	left: 11,
+	right: 11,
+	top: 14,
+	bottom: 14,
+	height : 16,
+	color : '#cc0000',
+	font : {
+        fontSize : '14dp',
+        fontFamily : 'Open Sans',
+        fontWeight: "bold"
+    }
+},
+'#time[formFactor=tablet platform=ios]' : {
+	left: 6,
+	right: 6,
+	top : 205,
+	bottom: 11,
+	height : 9,
+	color : '#cc0000',
+	font : {
+        fontSize : '11dp',
+        fontFamily : 'Open Sans',
+        fontWeight: "bold"
+    }
+},
+'#time[formFactor=handheld platform=android]' : {
+	left: 11,
+	right: 11,
+	top: 14,
+	bottom: 14,
+	height : 16,
+	color : '#cc0000',
+	font : {
+        fontSize : '14dp',
+        fontFamily : 'Open Sans Bold',
+        fontWeight: "bold"
+    }
+},
+'#time[formFactor=tablet platform=android]' : {
+	left: 6,
+	right: 6,
+	top : 204,
+	height : 14,
+	color : '#cc0000',
+	font : {
+        fontSize : '12dp',
+        fontFamily : 'Open Sans Bold',
+        fontWeight: "bold"
+    }
+}
+
